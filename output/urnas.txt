@@ -1,0 +1,13 @@
+RELATÓRIO DE URNAS
+
+Urna zona 1, seção 1
+  Prefeito: 3 válidos, 1 brancos, 0 nulos
+  Vereador: 3 válidos, 1 brancos, 0 nulos
+
+Urna zona 1, seção 2
+  Prefeito: 1 válidos, 0 brancos, 1 nulos
+  Vereador: 1 válidos, 0 brancos, 1 nulos
+
+Urna zona 2, seção 1
+  Prefeito: 3 válidos, 1 brancos, 0 nulos
+  Vereador: 4 válidos, 0 brancos, 0 nulos

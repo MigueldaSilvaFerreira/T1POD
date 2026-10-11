@@ -1,0 +1,12 @@
+RELATÓRIO DE ELEITORES
+Total de eleitores: 7
+Total de candidatos a prefeito: 2
+Total de candidatos a vereador: 2
+
+Seções por zona:
+Zona 1:
+  Seção 1: 3 eleitores
+  Seção 2: 1 eleitores
+Zona 2:
+  Seção 1: 2 eleitores
+  Seção 2: 1 eleitores

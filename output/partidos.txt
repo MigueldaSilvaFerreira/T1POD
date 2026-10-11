@@ -1,0 +1,5 @@
+RELATÓRIO DE PARTIDOS
+Total de partidos: 2
+
+Partido Alfa Brasileiro (ABC): 1 candidato(s) a prefeito, 1 a vereador
+Partido Democratico (DEF): 1 candidato(s) a prefeito, 1 a vereador
