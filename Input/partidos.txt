@@ -1,0 +1,5 @@
+numero;sigla;nome;cnpj
+10;ABC;Partido Alfa Brasileiro;12345678000199
+20;DEF;Partido Democratico;98765432000110
+30;GHI;Partido CNPJ Curto;123
+40;JKL;Partido Nome Gigante Nome Gigante Nome Gigante Nome Gigante;11111111000111
