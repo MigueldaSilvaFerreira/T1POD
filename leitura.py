@@ -15,7 +15,7 @@ def _separar(linha: str, tipo: str, esperado: int) -> list[str]:
     """Divide a linha em campos; se o número de colunas estiver errado, vira ErroCadastro."""
     campos = [c.strip() for c in linha.split(SEPARADOR)]
     if len(campos) != esperado:
-        raise ErroCadastro(tipo, "LINHA", linha)
+        raise ErroCadastro(tipo, "LINHA", linha, f"deve ter exatamente {esperado} campos")
     return campos
 
 
@@ -42,14 +42,14 @@ def _criar_eleitor(linha: str, eleicao: Eleicao) -> Eleitor:
 
         partido = eleicao.buscar_partido(num_partido)
         if partido is None:
-            raise ErroCadastro(rotulo, "PARTIDO", num_partido)
+            raise ErroCadastro(rotulo, "PARTIDO", num_partido, "não corresponde a nenhum partido cadastrado")
 
         if tipo == "PREFEITO":  # extra1 = CPF do vice, extra2 = plano de governo
             return Prefeito(nome, cpf, nasc, titulo, zona, secao, numero, partido, extra1, extra2)
         # extra1 = bairro, extra2 = projeto de lei
         return Vereador(nome, cpf, nasc, titulo, zona, secao, numero, partido, extra1, extra2)
 
-    raise ErroCadastro("Eleitor", "TIPO", tipo)
+    raise ErroCadastro("Eleitor", "TIPO", tipo, "deve ser ELEITOR, PREFEITO ou VEREADOR")
 
 
 def ler_eleitores(caminho: str, eleicao: Eleicao) -> None:
@@ -72,9 +72,9 @@ def ler_urnas(caminho: str, eleicao: Eleicao) -> None:
         try:
             zona, secao, voto_pref, voto_ver = _separar(linha, "Urna", 4)
             if not zona.isdigit():
-                raise ErroCadastro("Urna", "ZONA", zona)
+                raise ErroCadastro("Urna", "ZONA", zona, "deve ser numérica")
             if not secao.isdigit():
-                raise ErroCadastro("Urna", "SECAO", secao)
+                raise ErroCadastro("Urna", "SECAO", secao, "deve ser numérica")
         except ErroCadastro as erro:
             eleicao.registrar_erro(str(erro))
             continue

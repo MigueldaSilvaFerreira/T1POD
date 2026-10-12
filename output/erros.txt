@@ -1,11 +1,11 @@
 RELATÓRIO DE ERROS
 Total de mensagens: 6
-  - Erro em Partido: campo 'CNPJ' inválido. Valor 123 não está no formato correto.
-  - Erro em Partido: campo 'NOME' inválido. Valor Partido Nome Gigante Nome Gigante Nome Gigante Nome Gigante não está no formato correto.
-  - Erro em Eleitor: campo 'CPF' inválido. Valor 123 não está no formato correto.
-  - Erro em Prefeito: campo 'NUMERO' inválido. Valor 123 não está no formato correto.
-  - Erro em Vereador: campo 'PARTIDO' inválido. Valor 99 não está no formato correto.
-  - Erro em Urna: campo 'ZONA' inválido. Valor XX não está no formato correto.
+  - Erro em Partido: campo 'CNPJ' inválido. Valor 123 deve ter exatamente 14 caracteres numéricos.
+  - Erro em Partido: campo 'NOME' inválido. Valor Partido Nome Gigante Nome Gigante Nome Gigante Nome Gigante deve ter no máximo 50 caracteres.
+  - Erro em Eleitor: campo 'CPF' inválido. Valor 123 deve ter exatamente 11 caracteres numéricos.
+  - Erro em Prefeito: campo 'NUMERO' inválido. Valor 123 deve ter exatamente 2 caracteres numéricos.
+  - Erro em Vereador: campo 'PARTIDO' inválido. Valor 99 não corresponde a nenhum partido cadastrado.
+  - Erro em Urna: campo 'ZONA' inválido. Valor XX deve ser numérica.
 
 Contadores de erros de validação:
   Partido: 2
