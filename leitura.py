@@ -1,7 +1,7 @@
 from eleicao import Eleicao, ErroCadastro, Partido, Eleitor, Prefeito, Vereador, Urna, BRANCO
 
-SEPARADOR = ";"
-LINHAS_CABECALHO = 1  # ajustar quando souber o formato real
+SEPARADOR = ","
+LINHAS_CABECALHO = 0  # ajustar quando souber o formato real
 
 
 def _ler_linhas(caminho: str) -> list[str]:
@@ -10,6 +10,13 @@ def _ler_linhas(caminho: str) -> list[str]:
         linhas = [linha.strip() for linha in arquivo]
     return [l for l in linhas[LINHAS_CABECALHO:] if l and not l.startswith("#")]
 
+def _dividir_tipo(linha: str, objeto: str) -> tuple[str, str]:
+    """divide o tipo, exemplo: ELEITOR: Rogerio ...  -> 'ELEITOR' 'Rogerio ...'."""
+    if ":" not in linha:
+        raise ErroCadastro(objeto, "LINHA", linha[:60], "não tem o formato 'TIPO: campos'")
+    
+    tipo, resto = linha.split(":", 1)
+    return tipo.strip().upper(), resto.strip()
 
 def _separar(linha: str, tipo: str, esperado: int) -> list[str]:
     """Divide a linha em campos; se o número de colunas estiver errado, vira ErroCadastro."""
@@ -22,23 +29,24 @@ def _separar(linha: str, tipo: str, esperado: int) -> list[str]:
 def ler_partidos(caminho: str, eleicao: Eleicao) -> None:
     for linha in _ler_linhas(caminho):
         try:
-            numero, sigla, nome, cnpj = _separar(linha, "Partido", 4)
+            _ , resto = _dividir_tipo(linha, "Partido")
+            numero, sigla, nome, cnpj = _separar(resto, "Partido", 4)
             eleicao.inserir_partido(Partido(numero, sigla, nome, cnpj))
         except ErroCadastro as erro:
             eleicao.registrar_erro(str(erro))  # linha ignorada, segue o processamento
 
 
 def _criar_eleitor(linha: str, eleicao: Eleicao) -> Eleitor:
-    tipo = linha.split(SEPARADOR)[0].strip().upper()
+    tipo, resto = _dividir_tipo(linha, "Eleitor")
 
     if tipo == "ELEITOR":
-        _, nome, cpf, nasc, titulo, zona, secao = _separar(linha, "Eleitor", 7)
+        nome, cpf, nasc, titulo, zona, secao = _separar(resto, "Eleitor", 6)
         return Eleitor(nome, cpf, nasc, titulo, zona, secao)
 
     if tipo in ("PREFEITO", "VEREADOR"):
         rotulo = tipo.capitalize()
-        (_, nome, cpf, nasc, titulo, zona, secao,
-         numero, num_partido, extra1, extra2) = _separar(linha, rotulo, 11)
+        (nome, cpf, nasc, titulo, zona, secao,
+         numero, num_partido, extra1, extra2) = _separar(resto, rotulo, 10)
 
         partido = eleicao.buscar_partido(num_partido)
         if partido is None:
@@ -70,18 +78,26 @@ def ler_urnas(caminho: str, eleicao: Eleicao) -> None:
 
     for linha in _ler_linhas(caminho):
         try:
-            zona, secao, voto_pref, voto_ver = _separar(linha, "Urna", 4)
+            tipo , resto = _dividir_tipo(linha, "Urna")
+            if tipo != "VOTO":
+                raise ErroCadastro("Urna", "TIPO", tipo, "deve ser VOTO")
+            zona, secao, _, cargo, numero = _separar(resto, "Urna", 5)
             if not zona.isdigit():
                 raise ErroCadastro("Urna", "ZONA", zona, "deve ser numérica")
             if not secao.isdigit():
                 raise ErroCadastro("Urna", "SECAO", secao, "deve ser numérica")
+            if cargo not in ("PREFEITO","VEREADOR"):
+                raise ErroCadastro("Urna", "CARGO",cargo, "deve ser um cargo válido")
         except ErroCadastro as erro:
             eleicao.registrar_erro(str(erro))
             continue
 
         urna = urnas.setdefault((zona, secao), Urna(zona, secao, {}, {}))
-        _somar_voto(urna.votos_prefeito, voto_pref)
-        _somar_voto(urna.votos_vereador, voto_ver)
+        if cargo == "PREFEITO":
+            _somar_voto(urna.votos_prefeito, numero)
+        else:
+            _somar_voto(urna.votos_vereador, numero)
+
 
     for urna in urnas.values():
         eleicao.inserir_urna(urna)

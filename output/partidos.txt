@@ -1,5 +1,23 @@
 RELATÓRIO DE PARTIDOS
-Total de partidos: 2
+Total de partidos: 20
 
-Partido Alfa Brasileiro (ABC): 1 candidato(s) a prefeito, 1 a vereador
-Partido Democratico (DEF): 1 candidato(s) a prefeito, 1 a vereador
+Partido Comunitario Nacional (PCN): 1 candidato(s) a prefeito, 5 a vereador
+Partido Acao Cidada (PAC): 1 candidato(s) a prefeito, 5 a vereador
+Uniao Popular Progressista (UPP): 1 candidato(s) a prefeito, 9 a vereador
+Partido Verde Sustentavel (PVS): 1 candidato(s) a prefeito, 6 a vereador
+Partido da Renovacao Popular (PRP): 1 candidato(s) a prefeito, 8 a vereador
+Partido Liberal Independente (PLI): 1 candidato(s) a prefeito, 6 a vereador
+Partido da Vida Republicana (PVR): 1 candidato(s) a prefeito, 5 a vereador
+Partido Internet Rapida (UDP): 1 candidato(s) a prefeito, 7 a vereador
+Movimento Democratico Cidadao (MDC): 1 candidato(s) a prefeito, 7 a vereador
+Partido Internet Confiavel (TCP): 1 candidato(s) a prefeito, 11 a vereador
+Novo Brasil (NVB): 1 candidato(s) a prefeito, 9 a vereador
+Partido Social Trabalhista (PST): 1 candidato(s) a prefeito, 6 a vereador
+Partido Renovacao Urbana (PRU): 1 candidato(s) a prefeito, 7 a vereador
+Movimento Progressista Republicano (MPR): 1 candidato(s) a prefeito, 6 a vereador
+Movimento Trabalhista Social (MTS): 1 candidato(s) a prefeito, 5 a vereador
+Partido Federal Democratico (PFD): 1 candidato(s) a prefeito, 6 a vereador
+Uniao Popular Brasileira (UPB): 1 candidato(s) a prefeito, 8 a vereador
+Frente Reformista Democratica (FRD): 1 candidato(s) a prefeito, 11 a vereador
+Alianca Democratica Popular (ADP): 1 candidato(s) a prefeito, 5 a vereador
+Partido Social Republicano (PSR): 1 candidato(s) a prefeito, 11 a vereador

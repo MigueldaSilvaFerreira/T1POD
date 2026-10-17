@@ -1,13 +1,33 @@
 RELATÓRIO DE URNAS
 
 Urna zona 1, seção 1
-  Prefeito: 3 válidos, 1 brancos, 0 nulos
-  Vereador: 3 válidos, 1 brancos, 0 nulos
+  Prefeito: 749 válidos, 44 brancos, 43 nulos
+  Vereador: 757 válidos, 50 brancos, 29 nulos
 
 Urna zona 1, seção 2
-  Prefeito: 1 válidos, 0 brancos, 1 nulos
-  Vereador: 1 válidos, 0 brancos, 1 nulos
+  Prefeito: 1062 válidos, 63 brancos, 70 nulos
+  Vereador: 1059 válidos, 64 brancos, 69 nulos
+
+Urna zona 1, seção 3
+  Prefeito: 1289 válidos, 92 brancos, 82 nulos
+  Vereador: 1317 válidos, 81 brancos, 71 nulos
 
 Urna zona 2, seção 1
-  Prefeito: 3 válidos, 1 brancos, 0 nulos
-  Vereador: 4 válidos, 0 brancos, 0 nulos
+  Prefeito: 1205 válidos, 82 brancos, 74 nulos
+  Vereador: 1222 válidos, 75 brancos, 65 nulos
+
+Urna zona 2, seção 2
+  Prefeito: 791 válidos, 66 brancos, 44 nulos
+  Vereador: 792 válidos, 67 brancos, 40 nulos
+
+Urna zona 2, seção 3
+  Prefeito: 1209 válidos, 85 brancos, 63 nulos
+  Vereador: 1186 válidos, 108 brancos, 61 nulos
+
+Urna zona 3, seção 1
+  Prefeito: 1239 válidos, 57 brancos, 70 nulos
+  Vereador: 1218 válidos, 91 brancos, 66 nulos
+
+Urna zona 3, seção 2
+  Prefeito: 1228 válidos, 108 brancos, 84 nulos
+  Vereador: 1260 válidos, 93 brancos, 73 nulos

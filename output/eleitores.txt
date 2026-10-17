@@ -1,12 +1,17 @@
 RELATÓRIO DE ELEITORES
-Total de eleitores: 7
-Total de candidatos a prefeito: 2
-Total de candidatos a vereador: 2
+Total de eleitores: 10000
+Total de candidatos a prefeito: 20
+Total de candidatos a vereador: 143
 
 Seções por zona:
 Zona 1:
-  Seção 1: 3 eleitores
-  Seção 2: 1 eleitores
+  Seção 1: 843 eleitores
+  Seção 2: 1201 eleitores
+  Seção 3: 1481 eleitores
 Zona 2:
-  Seção 1: 2 eleitores
-  Seção 2: 1 eleitores
+  Seção 1: 1371 eleitores
+  Seção 2: 907 eleitores
+  Seção 3: 1375 eleitores
+Zona 3:
+  Seção 1: 1384 eleitores
+  Seção 2: 1438 eleitores

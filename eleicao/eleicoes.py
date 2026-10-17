@@ -158,8 +158,8 @@ class Urna():
         if not isinstance(outra_urna, Urna):
             return NotImplemented
 
-        #Pesquisei e vou usar .copy() para nao direcinar o endereco
-        #Do novo dicionario no antigo
+        # uso .copy() pra a nova urna não compartilhar o dicionário da original, 
+        # senão somar na nova alteraria a antiga
 
         novos_votos_vereador = self.votos_vereador.copy()
         for candidato in outra_urna.votos_vereador:

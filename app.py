@@ -18,7 +18,7 @@ def main() -> None:
     eleicao = Eleicao()
 
     try:
-        ler_partidos(arq_partidos, eleicao)    # priemiros candidatos dependem dos partidos
+        ler_partidos(arq_partidos, eleicao)    # primeiros candidatos dependem dos partidos
         ler_eleitores(arq_eleitores, eleicao)
         ler_urnas(arq_urnas, eleicao)
     except FileNotFoundError as erro:

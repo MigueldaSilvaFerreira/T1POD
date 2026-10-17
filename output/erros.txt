@@ -1,13 +1,269 @@
 RELATÓRIO DE ERROS
-Total de mensagens: 6
-  - Erro em Partido: campo 'CNPJ' inválido. Valor 123 deve ter exatamente 14 caracteres numéricos.
-  - Erro em Partido: campo 'NOME' inválido. Valor Partido Nome Gigante Nome Gigante Nome Gigante Nome Gigante deve ter no máximo 50 caracteres.
-  - Erro em Eleitor: campo 'CPF' inválido. Valor 123 deve ter exatamente 11 caracteres numéricos.
-  - Erro em Prefeito: campo 'NUMERO' inválido. Valor 123 deve ter exatamente 2 caracteres numéricos.
-  - Erro em Vereador: campo 'PARTIDO' inválido. Valor 99 não corresponde a nenhum partido cadastrado.
-  - Erro em Urna: campo 'ZONA' inválido. Valor XX deve ser numérica.
+Total de mensagens: 262
+  - Erro em Partido: campo 'CNPJ' inválido. Valor 456123 deve ter exatamente 14 caracteres numéricos.
+  - Erro em Eleitor: campo 'CPF' inválido. Valor 123456 deve ter exatamente 11 caracteres numéricos.
+  - Erro em Eleitor: campo 'NOME' inválido. Valor Com Grandes Poderes Vem Grandes Responsabilidades (Tio Ben) deve ter no máximo 50 caracteres.
+  - Erro em Vereador: campo 'NUMERO' inválido. Valor 7802 deve ter exatamente 5 caracteres numéricos.
+  - Erro em Vereador: campo 'NUMERO' inválido. Valor 170002 deve ter exatamente 5 caracteres numéricos.
+  - Erro em Eleitor: campo 'NOME' inválido. Valor 091874309123647812374012751092876438926491204609413751 deve ter no máximo 50 caracteres.
+  - Erro em Eleitor: campo 'CPF' inválido. Valor 123456 deve ter exatamente 11 caracteres numéricos.
+  - Erro em Prefeito: campo 'CPF VICE' inválido. Valor 482610548365 deve ter exatamente 11 caracteres numéricos.
+  - Erro em Eleitor: campo 'CPF' inválido. Valor 654321 deve ter exatamente 11 caracteres numéricos.
+  - Erro em Eleitor: campo 'CPF' inválido. Valor 123456 deve ter exatamente 11 caracteres numéricos.
+  - Erro em Eleitor: campo 'CPF' inválido. Valor 654321 deve ter exatamente 11 caracteres numéricos.
+  - Erro em Prefeito: campo 'NUMERO' inválido. Valor 1a deve ter exatamente 2 caracteres numéricos.
+  - Erro em Prefeito: campo 'CPF VICE' inválido. Valor 1234567891o deve ter exatamente 11 caracteres numéricos.
+  - Erro em Eleitor: campo 'CPF' inválido. Valor 654321 deve ter exatamente 11 caracteres numéricos.
+  - Erro em Vereador: campo 'NUMERO' inválido. Valor 11 deve ter exatamente 5 caracteres numéricos.
+  - Erro em Prefeito: campo 'NUMERO' inválido. Valor aa deve ter exatamente 2 caracteres numéricos.
+  - Erro em Prefeito: campo 'NUMERO' inválido. Valor 388 deve ter exatamente 2 caracteres numéricos.
+  - Erro em Vereador: campo 'NUMERO' inválido. Valor 7806 deve ter exatamente 5 caracteres numéricos.
+  - Erro em Urna: campo 'LINHA' inválido. Valor @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@##*###%@@@@@@@@@@@@@@@@ não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @@@@@@@@@@@@@@@@@@@@@@@@@@@% deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @@@@@@@@@@@@@@@@@@@@@@@- deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @@@@@@@@@@@@@@@@@@@@-. deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @@@@@@@@@@@@@@@@@* deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @@@@@@@@@@@@@@@=.-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @@@@@@@@@@@@@@ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @@@@@@@@@@@@= deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @@@@@@@@@@@ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @@@@@@@@@@ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @@@@@@@@@ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @@@@@@@% deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @@@@@@# deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @@@@@@ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @@@@@ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @@@@ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @@@+.@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@* deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @@@ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @@ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @@ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @= deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @.@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor . deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor .-@@@@@@@@@@@@@@@@@@@@%=@@@@@@@@= deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor .*@@@@@@@@@@@@@@@@@@@@=#@@@@@@@@@@ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor  deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor  deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor .@@@@@@@@@@@@@@@@@@@@@@@@= deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor  deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor  deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor  deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor  deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor  deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor . deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @@ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @@@ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @@@@ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @@@@@ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @@@@@%.@@@@@@@@@@@# deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @@@@@@% deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @@@@@@@@ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @@@@@@@@@. deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @@@@@@@@@@. deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @@@@@@@@@@@# deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @@@@@@@@@@@@@-.-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @@@@@@@@@@@@@@@=. deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @@@@@@@@@@@@@@@@@@ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @@@@@@@@@@@@@@@@@@@@@ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @@@@@@@@@@@@@@@@@@@@@@@@- deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @@@@@@@@@@@@@@@@@@@@@@@@@@@@@ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.-@@@@@@@@@@@@@*=- deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@* deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@. deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@# deve ser VOTO.
+  - Erro em Urna: campo 'LINHA' inválido. Valor @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-+@@@@@@@@@@@@@@@@@@@@@@@@@@@@ não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor .--------------..--------------..--------------..----------- não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor .--------------..--------------..--------------..----------- não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor |  _______     ||  _________   ||     ______   ||  _________ não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor | |_   __ \    || |_   ___  |  ||   .' ___  |  || |_   ___   não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor |   | |__| |   ||   | |_  \_|  ||  / .'   \_|  ||   | |_  \_ não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor |   |  __ /    ||   |  _|  _   ||  | |         ||   |  _|  _ não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor |  _| |  \ \_  ||  _| |___/ |  ||  \ `.___.'\  ||  _| |___/  não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor | |____| |___| || |_________|  ||   `._____.'  || |_________ não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor |              ||              ||              ||            não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor '--------------''--------------''--------------''----------- não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor '--------------''--------------''--------------''----------- não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor *#***##### não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor *#%%%%%%%%%%%%#***# não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor *#%%%@@%%##*+#%%##%*# não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor %%+=+*#%#+++=+*#%##*==## não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor %**##%%%%%#*=*#%%#**+==# não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor %*+##%@@%%#+=+*%%@%#+==# não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor **+++*##****+=-=++++===-==+ não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor *++++++++++++=--=====-==+=+                     ## não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor *#+***++++%%##*##======+=#=                  ++#**#% não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor *#****++++***+========+====               #*#+###*%% não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor +#****+##***+++=**====*+=              **+*#%*##%**%% não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor *                         +****#%*+=+=-=+*+==+               não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor %*+==*+                     ***########*++++=++              não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor %%+*=+++=                  ****###**+++++++++=          ++*+ não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor %%#=+++=+=                ****###**++++++++==     ****+*##*+ não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor %%%*+*+=++++=            **###*#####****++==      **+#**##** não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor %#%%#####%#*****=+=***##***##**++++++=+-+**#*##%#@%%@%%%%%# não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor ==+=+%%#########*+++**###*****+++++++=*#%%%%%%%@%%%%%%%#--- não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor =====-===+*%%%%%%%##**############***+++*#%%%%%%@%@@@%%%%%*= não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor -============+#%%%%%##%%======+#######*+***#%%%%%%%%@@%%%%#+ não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor ==============+=%%%#%%*+=++=====+##%##*++++++*%@%%%%%%%%%=++ não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor ====++++==-=====+==%%%#*++*****++++====+++++===+*%%%%%%%*=++ não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor ====+===+===-+==-+===%@**#****###******+++++++++*##@%@%*++++ não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor ======+======-+======+-=+=+#**#####***++++*+*******@@++=+++= não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor ======+====-=-=====-=+---===+**##**++**+++++*++++===+++=++*= não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor ==========--=-==-==-=+=-====+=+**+++*+*++++++++=+===+===++*+ não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor ==========---===-===-++---==+*++++++++++++++++======+===++*+ não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor ==========+=--===--==-=+=-=++++++++*++++*+++++++++==++==+++* não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor =============-===--====++++****++++*++++++++****+++++===+++* não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor =================--===****+****************%#****+++++==++++ não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor ====++++++=======--++********************%%###****+++++++=*= não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor =*++**+++++**+==-+**********************=%%%####*****+++++++ não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor ***+**********++**********************====*%%#####******++++ não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor ********###*++**********************=====+++%%#####******+++ não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor **************##############**+++++*++++==+=++++**###++*%%%% não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor ***********##############+===++**+++=+=======+++*##+===++++% não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor ***###**################+==-==+++++++=++======+=+#**++++=+++ não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor **####################=====--==++++++=++=======++*++=+====+= não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor %%%%%%%%%%######   ========--====++==========+++======--==-- não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor %%%%%%%####      =========--==-=============++======--==---- não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor %%%%%%##        ===========----============++=====---==----- não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor %%%#          ==========-------==========+++++==--===------- não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor ==+=======--------===========++++=====----------=- não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor ==++======---------=========+=========----------=- não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor ===++======----------==================----------=- não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor ==+++=======-------=-============--====------------ não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor ==++++=======------====================----=------- não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor ==++++=======------===================----=--------= não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor =+++++=======------===================---=-=-------- não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor +=++++++=======------==================---==-==------ não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor =++++++++======-------=============+===----==-=------= não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor =++++++++=+++===------=======+====+++=---========----+ não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor .............................. não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ........ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ...+@@@@@@@@@@@@@@@@%--#@@@@@@@@%*- deve ser VOTO.
+  - Erro em Urna: campo 'LINHA' inválido. Valor ...@@@@@@@@@@@@@@==@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ..*@@@@@@@@@@@+-@@@@@# deve ser VOTO.
+  - Erro em Urna: campo 'LINHA' inválido. Valor ...@@@@@@@@@@+@@@@@-@@@@@@@%*++====+%@@@@@@@@@@@@@@@@@@@@@@@ não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ...@@@@@@@@%@@@@@=@@@ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ...@@@@@@@%@@@@-@@@ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ...@@@@@@@@@@@+@@@ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ...@@@@@@@@@@@@@@@@@@@@@* deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ...@@@@@@@@@@@@@@@@@@%...........*@@-... deve ser VOTO.
+  - Erro em Urna: campo 'LINHA' inválido. Valor ....+#%@@@@@@@@@@@@@@@..%@*........@@@@@@@...@@@@@@@@@@@@@@- não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ...@*=%@@@@@@@@@@@@#@@@%...... deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ...@+@@@@@@ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ...@ deve ser VOTO.
+  - Erro em Urna: campo 'LINHA' inválido. Valor ..=@@@@@@..=@@@@@+-@@@@@-..........@@@@@@@@@@@@@@@@@@@@@@@@@ não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ..@@@@@@ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ..@@@@@@. deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ..@@@@@@..@@......@@@@ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ..@@@+@@-.*@@@@@ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ...@@*@@@..@@@@@@...@@@@@@@@.. deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ...@@@.@@@@@@@@@=.....@@@@@..@@@@@@-......*@@@@@@@@@@@@@@@@.. deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ...@@@@@@@@@@@@@....... deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ....%%@@@@@@@@@@..-@@%...... deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ...@@@@@@@@@@@@=..@@@@......... deve ser VOTO.
+  - Erro em Urna: campo 'LINHA' inválido. Valor ..-@@@@@@@@@@@@..@@@..@@@-..........@@@@@@@@@@@..@@@@@@@..@@ não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ..-@@@@@@@@@@@@ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ..=@@@@@@@@@@@@@...@@@@@@@@@@@=..% deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ..-@@@@@@@@@@@@@@...%@@@@@@@@ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ...@@@@@@@@@@@@@@@+...@@@@@*. deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ....@@@@@@@@@@@@@@@@ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ... deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ....@@@@ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor .... deve ser VOTO.
+  - Erro em Urna: campo 'LINHA' inválido. Valor .....%@@@@++@@@@@-*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ..... deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ..... deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ..... deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ..... deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ..... deve ser VOTO.
+  - Erro em Urna: campo 'LINHA' inválido. Valor ......-%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@=... não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'TIPO' inválido. Valor .......... deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ..........-+@@@@@@@@@@@@@# deve ser VOTO.
+  - Erro em Urna: campo 'LINHA' inválido. Valor ................... não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'LINHA' inválido. Valor ................ não tem o formato 'TIPO: campos'.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ......-...-.- deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ..... deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ...-. deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor .... deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor .......... deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ..-...... deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor .. deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ........ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ..... deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor .... deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor .. deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor .. deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ........ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor .... deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ........ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor .. deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor .... deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor . deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor .. deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ..... deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ............. deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor .. deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor . deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor . deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ... deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ..... deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ..........-++=+#= deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor .. deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor .. deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor .. deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor . deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor .-........*@@....+-=--- deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor . .. deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor .. deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ..........-*@@ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor . deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor .=. deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor . -=.. deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor . ........... deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor .......... deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor .... deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor .. deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor .. deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor .------ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor . deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor . deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ..*-=-- deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ...==--- deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor .....+-- deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor .. deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ........ deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor .... deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ..... deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor .................... deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ........................=++-=+-=--=-===+-+- deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ..................... deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ...... deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ....... deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ....... deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ..... deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor ... deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor .. deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor . deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor . deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor . deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor . deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor .. deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor . deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor . deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor .. deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor . deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor . deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor . deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor . deve ser VOTO.
+  - Erro em Urna: campo 'TIPO' inválido. Valor . deve ser VOTO.
+  - Erro em Urna: campo 'LINHA' inválido. Valor ............................................................ não tem o formato 'TIPO: campos'.
 
 Contadores de erros de validação:
-  Partido: 2
-  Prefeito: 1
-  Vereador: 0
+  Partido: 1
+  Prefeito: 3
+  Vereador: 4
