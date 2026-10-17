@@ -1,0 +1,27 @@
+#########################################################################################
+# Os dados a seguir estão organizados da seguinte forma:                                #
+#   Linhas que começam com "PARTIDO:" são instancias de partido no seguinte formato:    #
+#       numero,sigla,nome,cnpj                                                          #
+#########################################################################################
+
+PARTIDO: 17,PCN,Partido Comunitario Nacional,22413193000145
+PARTIDO: 20,PAC,Partido Acao Cidada,44463144000150
+PARTIDO: 23,UPP,Uniao Popular Progressista,78331598000199
+PARTIDO: 25,PVS,Partido Verde Sustentavel,46609770000137
+PARTIDO: 28,PRP,Partido da Renovacao Popular,89344506000121
+PARTIDO: 38,PLI,Partido Liberal Independente,62343169000100
+PARTIDO: 42,PVR,Partido da Vida Republicana,35199724000190
+PARTIDO: 45,UDP,Partido Internet Rapida,27001253000136
+PARTIDO: 46,MDC,Movimento Democratico Cidadao,27021427000122
+PARTIDO: 50,TCP,Partido Internet Confiavel,26267315000193
+PARTIDO: 51,NVB,Novo Brasil,19811749000147
+PARTIDO: 00,LOL,Laugh Out Loud,456123
+PARTIDO: 63,PST,Partido Social Trabalhista,20683796000131
+PARTIDO: 78,PRU,Partido Renovacao Urbana,07147629000108
+PARTIDO: 81,MPR,Movimento Progressista Republicano,45907188000194
+PARTIDO: 86,MTS,Movimento Trabalhista Social,74766832000150
+PARTIDO: 91,PFD,Partido Federal Democratico,68926249000166
+PARTIDO: 92,UPB,Uniao Popular Brasileira,92660055000146
+PARTIDO: 93,FRD,Frente Reformista Democratica,90896413000199
+PARTIDO: 96,ADP,Alianca Democratica Popular,22786407000129
+PARTIDO: 98,PSR,Partido Social Republicano,84819569000173
